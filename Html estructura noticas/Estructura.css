@@ -1,0 +1,126 @@
+#headr{
+    margin-top: 0px;
+    margin:auto;
+    width:1200px;
+    height:100px;
+    font-family: fantasy;
+    font-size: 40px;
+   
+ 
+}
+a span{
+    margin-right: 20px;
+}
+ul,ol{
+    list-style: none;
+
+}
+.nav li a{ /*todos los elementos lista de la clase nav*/
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    
+   
+}
+
+.nav li a:hover{
+    background-color: greenyellow;
+    
+}
+.nav >li{
+    float:left;
+
+}
+
+
+header{
+    margin-top:0px;
+    font-size: 75px;
+    text-align: left;
+    font-family: serif;
+    background: Yellow;
+    color: #333;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white;
+
+    
+}
+h1{
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    background: #333;
+        }
+p{
+    font-size: 20px;
+   
+    
+}
+form{
+    color:black;
+    margin-right: 500px;
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+    
+}
+#_btnVerdad{
+    padding:15px;
+    width: 200px;
+    background: #AF7AC5  ;
+    margin-right: 20px;
+    border-radius: 7px;
+    font-size: 25px;
+    box-shadow: 0 0 20px 1px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#_btnFalso{
+    background: #AF7AC5;
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 1px;
+    cursor: pointer;
+    
+   
+}
+img{
+    max-height: 600px;
+    max-width: 700px;
+
+}
+#Botones{    
+    padding: 20px;
+    text-align: center;
+    
+}
+#Votos{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    
+    
+    
+}
+#Botones input:hover{
+    background-color: #76D7C4;
+}
+label span{
+    margin-right: 15px;
+}
+
+label{
+    margin-right: 50px;
+    
+}
