@@ -1,0 +1,28 @@
+form{
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: red;
+
+}
+label{
+    font-size: 30px;
+    font-family: serif;
+    text-align: center;
+
+}
+input{
+    text-align: center;
+}
+#submit{
+    color: red;
+    font-size: 30px;
+    padding: 10px 15px;
+    box-shadow: cyan;
+    border: 7px;
+}

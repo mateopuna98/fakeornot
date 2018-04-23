@@ -1,0 +1,32 @@
+
+<h2>Noticias</h2>
+<div class="card">
+  <div class="card-content">
+    <span class="card-title">Add Task</span>
+    <form (ngSubmit)="anadirnoticia()" class="col s6">
+      <div class="row">
+        <div class="input-field col-s6">
+          <input type="text" name="title" placeholder="Add title" [(ngModel)]="taskss.Titulo" >
+          <label>Title</label>
+        </div>
+        <div class="input-field col-s6">
+            <input type="text" placeholder="Add Description" [(ngModel)]="taskss.Cuerpo" name="description">
+            <label>Description</label>
+          </div>
+      </div>
+      <br/>
+      <input type="submit" class="btn light-blue" id ="submit">
+    </form>
+  </div>
+</div>
+<div *ngIf="tasks?.length > 0;else noTasks">
+  <ul *ngFor="let task of tasks" class="collection">
+   
+      <strong>{{ task.Cuerpo }}</strong> : {{ task.Titulo }} 
+    
+  </ul>
+</div>
+
+<ng-template #noTasks>
+  <h5>There is not Tasks yet.</h5>
+</ng-template>
