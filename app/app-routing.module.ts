@@ -4,12 +4,14 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { EmailComponent } from './email/email.component';
 import { HomeComponent } from './home/home.component';
+import { FakestComponent } from './fakest/fakest.component';
 
 const routes: Routes = [
     {path: 'login', component: LoginComponent},
     {path: 'signup', component: SignupComponent},
     {path: 'email', component: EmailComponent},
-    {path: 'home', component: HomeComponent} 
+    {path: 'home', component: HomeComponent},
+    {path: 'fakest', component: FakestComponent}
 ];
 @NgModule({
     imports:[RouterModule.forRoot(routes)],

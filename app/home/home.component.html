@@ -1,41 +1,22 @@
 <div class="lateral">
-  <h1 class="titulo">Home</h1>
+  <h1 routerLink="/home" routerLinkActive="active" class="titulo">Home</h1>
   <canvas id="rectangulo"></canvas>
   <div id="subdiv">
+    <!-->
   <canvas id="estadistica1"></canvas>
   <canvas id="estadistica2"></canvas>
+  <!-->
 </div>
 </div>
 <div class="noticia">
   <h1>Trump bombardea Mexico {{valor}}</h1>
 <p>El mandatario de los estados unidos bombardea Mexico despues de una disputa a cerca del famoso muro anti-inmigrantes.</p>
-<img src="https://firebasestorage.googleapis.com/v0/b/angular-fs-d045f.appspot.com/o/test%2F1524437144939_Screen%20Shot%202018-04-05%20at%2013.40.26.png?alt=media&token=ff5d87ad-0bdb-48d3-8465-eb3fc6b984b2" id="imagen"> 
-<button class="display" id="real">Truth</button>
+<img src="https://firebasestorage.googleapis.com/v0/b/angular-fs-d045f.appspot.com/o/test%2F1524488335543_trump.jpg?alt=media&token=95a46dea-edf5-4f6f-bfa5-bd0337fe80c5" id="imagen"> 
+<button class="display" id="real" (click)="showspan2()">Truth</button>
 <button class="display"id="falso"(click)="showspan()">Fake</button>
 <button id="leer">Leer noticia completa</button>
 <p id="datos">2000 fake <strong>·</strong> 1478 truth</p>
 <div id="otrosubdiv">
-<span id="resultado"class="resultado">Esta noticia es verdadera</span>
+<span id="resultado" class="resultado" [@enter]="es" *ngIf="estado">Esta noticia es falsa</span>
 </div>
-
 </div>
-<div class="noticia">
-    <h1>Trump bombardea Mexico</h1>
-  <p>El mandatario de los estados unidos bombardea Mexico despues de una disputa a cerca del famoso muro anti-inmigrantes.</p>
-  <img src="assets/imagenes/trump.jpg" id="imagen"> 
-  <button id="real">Truth</button>
-  <button id="falso">Fake</button>
-  <p id="datos">2000 fake <strong>·</strong> 1478 truth</p>
-  <button id="leer">Leer noticia completa</button>
-  </div>
-  <div class="noticia">
-      <h1>Trump bombardea Mexico</h1>
-    <p>El mandatario de los estados unidos bombardea Mexico despues de una disputa a cerca del famoso muro anti-inmigrantes.</p>
-    <img src="assets/imagenes/trump.jpg" id="imagen"> 
-    <button id="real">Truth</button>
-    <button id="falso">Fake</button>
-    <p id="datos">2000 fake <strong>·</strong> 1478 truth</p>
-    <button id="leer">Leer noticia completa</button>
-    </div>
-
-

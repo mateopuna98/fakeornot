@@ -4,13 +4,17 @@ import { AppComponent } from './app.component';
 import {AppRoutingModule, routingComponents} from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
+import { FakestComponent } from './fakest/fakest.component';
+import { TuthestComponent } from './tuthest/tuthest.component';
  
 
 @NgModule({
   declarations: [
     AppComponent,
     routingComponents,
-    HomeComponent
+    HomeComponent,
+    FakestComponent,
+    TuthestComponent
   ],
   imports: [
     BrowserModule,
