@@ -1,0 +1,50 @@
+
+
+.dropzone { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    font-weight: 10;
+    height: 180px;
+    width: 360px;
+    text-align: center;
+    border: 2px dashed #f16624;
+    border-radius: 5px;
+    background: white;
+    margin: auto;
+
+    &.hovering {
+        border: 2px solid #f16624;
+        color: white !important;
+    }
+
+    .file-label {
+        font-size: 0.9em;
+        color: #8a8a8a;
+    }
+}
+
+progress::-webkit-progress-value {
+    transition: width 0.1s ease;
+}
+
+img {
+    width: 250px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.boton ligthblue{
+    text-align: center;
+    
+
+}
+.card{
+    text-align: center;
+}
