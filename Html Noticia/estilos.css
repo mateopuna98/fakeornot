@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin-bottom: 20px;
+}
+header{
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed; /*Para que se quede fijo en pantalla*/
+    z-index: 100; /* Para que se muestre por encima de imagenes*/
+}
+
+nav{
+    float: left; /*Desplazamos el Nav a hacia la izq*/
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+     
+}
+
+nav ul li{
+    float: left;
+    font-family: serif;
+    font-size: 16px;
+     padding: 10px 15px;
+    box-sizing: border-box;
+}
+nav ul li a{
+    display: block/*Convertimos en un bloque*/
+     padding: 10px 15px;
+
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: skyblue;
+    
+}
+.contenido{
+    padding-top: 80px;
+    background: #D3E9F7;
+    width: 60%;
+    margin-right: 200px;
+    float: right;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+img{
+width: 400px;
+    height: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Descripcion{
+    margin-top: 10px;
+}
+.Pie{
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+    width: 20%;
+    height: 2em;
+    text-align: center;
+    padding: 1%;
+    margin-right: 0.5em;
+    font-size: 15px;
+    cursor: pointer;
+}
+#_btnFalso{
+     background: white; 
+    color: #E50000;
+    border: 2px solid #E50000;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+#_btnVerdad{
+    background: white; 
+    color: #0f9d58;
+    border: 2px solid #0f9d58;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+
+}
+#_btnFalso:hover{
+    background: #e74c3c;
+    color: white;
+     
+}
+
+#_btnVerdad:hover{
+    background: #0f9d58;
+    color: white;
+}
+.Votos{
+    margin-top: 15px;
+    text-align: center;
+}
+h3{
+    margin-bottom: 10px;
+}
+label{
+    font-size: 20px;
+    
+}
+#Verdad{
+    margin-right: 20px;
+}
+#Falso{
+    margin-left: 20px;
+}
+    /*plomo #585858;
+rojo #E50000
+verde #0f9d58*/
