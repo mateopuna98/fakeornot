@@ -1,0 +1,40 @@
+<div class="lateral">
+  <div class='iconos'>
+  <p class="subtitulo">Siguenos en nuestras redes sociales!</p>
+</div>
+<div class='iconos'>
+    <a href="#" class="fa fa-facebook"></a>
+</div>
+<div class='iconos'>
+    <a href="#" class="fa fa-twitter"></a>
+</div> 
+<div class='iconos'>
+    <a href="#" class="fa fa-instagram"></a>
+</div> 
+<div class='iconos'>
+    <a href="#" class="fa fa-youtube"></a>
+</div> 
+  </div>
+<h1 id="tituloLetra">Titulo<p>(Agregale un titulo a tu noticia.)</p></h1>
+  <div id="titulo"  contenteditable="true" >
+  </div>
+  <h1 id="tituloLetra">Descripcion<p>(Una pequeña descripcion acerca de lo que contaras al mundo.)</p></h1>
+  <div id="descripcion"  contenteditable="true" >
+  </div>
+  <h1 id="tituloLetra">Cuerpo<p>(Esta parte esta dedicada exclusivamente al contenido. Diviertete!)</p></h1>
+  <div id="cuerpo"  contenteditable="true" >
+  </div>
+  <form>
+  <h1 id="tituloLetra">FakeOrNot?<p>(Dinos si esta noticia es falsa o verdadera. Si es verdadera dejanos la fuente para comprobarlo)</p></h1>
+  <div class="radio">
+<input type="radio" name="veracidad" id="verdadero">
+<label for="verdadero" (click)="mostrarFuente()">Verdadera</label>
+<input type="radio"  name="veracidad" id="falso">
+<label for="falso" (click)="ocultarFuente()">falsa</label>
+<input id="fuente"type="text" placeholder="Copia aqui la fuente" *ngIf="fuente">
+</div>
+</form>
+<button id="publicar">Publica tu noticia!</button>
+  
+
+ 
