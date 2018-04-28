@@ -1,0 +1,23 @@
+<div class="lateral">
+  <h1 routerLink="/home" routerLinkActive="active" class="titulo">Home</h1>
+  <canvas id="rectangulo"></canvas>
+  <div id="subdiv">
+    <!-->
+  <canvas id="estadistica1"></canvas>
+  <canvas id="estadistica2"></canvas>
+  <!-->
+</div>
+</div>
+<div class="noticia" *ngFor="let noticia of noticias">
+  <h1>Trump bombardea Mexico</h1>
+<p>El mandatario de los estados unidos bombardea Mexico despues de una disputa a cerca del famoso muro anti-inmigrantes.</p>
+<img src="https://i.imgflip.com/1lydvo.jpg" id="imagen"> 
+<button class="display" id="real" (click)="showspan2()">Truth</button>
+<button class="display"id="falso"(click)="showspan()">Fake</button>
+<button id="leer"><a routerLink="/noticia" routerLinkActive="active">Leer noticia completa</a></button>
+
+<p id="datos">2000 fake <strong>·</strong> 1478 truth</p>
+<div id="otrosubdiv">
+<span id="resultado" class="resultado" [@enter]="es" *ngIf="estado">Esta noticia es falsa</span>
+</div>
+</div>
