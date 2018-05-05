@@ -1,0 +1,142 @@
+.lateral{
+    width: 15%;
+    height: 100%;
+    background: white;
+    position: fixed;
+    top: 74px;
+    left: 0em;      
+    
+        
+}
+
+.noticia{
+    width: 530px;;
+    height: auto;
+    background: white;
+    margin-bottom: 2.5%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    padding: 2% 2% 1.5% 2%;
+    overflow: hidden;
+
+}
+p{
+    color:#2c3e50;
+    font-family: sans-serif;
+    margin-bottom: 2%;
+}
+h1{
+    color:#2c3e50;
+    font-family: sans-serif;
+    margin-bottom: 2%;
+    cursor: pointer;
+    outline: none;
+}
+h1:hover{
+    opacity: 0.8;
+}
+img{
+    
+        width: 520px;
+        height: auto;
+        display:block;
+        margin-bottom: 2%;
+        overflow: hidden;
+    
+}
+button{
+
+    width: 15%;
+    height: 2em;
+    text-align: center;
+    padding: 1%;
+    margin-right: 0.5em;
+    
+}
+#real{
+    background: white;
+    color: #0f9d58; 
+    border: 2px solid #0f9d58;
+    float: left;
+}
+#falso{
+    background: white;
+    color: #e74c3c; 
+    border: 2px solid #e74c3c;
+    float: left;
+    
+}
+#falso:hover{
+    background: #e74c3c;
+    color: white;
+     
+}
+
+#real:hover{
+    background: #0f9d58;
+    color: white;
+}
+
+#datos{
+
+    color: gray;
+    font-family: sans-serif;
+    float: inherit;
+    margin-top: 1em;
+
+    
+    
+}
+#leer{
+    
+    width: 178px;
+    float: right;
+    background: white;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;  
+      
+    
+}
+a{
+    text-decoration: none;
+    color:#2c3e50;
+}
+a:hover{
+    background: #2c3e50;
+    color: white;
+}
+#leer:hover{
+    background: #2c3e50;
+    color: white;
+    
+}
+.titulo{
+    margin-left: 1.5em;
+}
+#rectangulo{
+    width: 90px;
+    height: 7px;
+    background: #2c3e50;
+    margin-left: 3em;
+    float: left;
+   
+}
+.resultado{
+    padding: 0.8em;
+    float: left;
+    background: #e74c3c;
+
+}
+#otrosubdiv{
+    font-family: sans-serif;
+    width: 100%;
+    height: auto;
+    padding-top: .5em;
+    padding-left: 0em;
+    margin-top: 1em;
+    margin-left: .1em;
+}
+
+
+
+

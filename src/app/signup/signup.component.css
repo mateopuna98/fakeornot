@@ -1,0 +1,25 @@
+.goback{
+   position: relative; 
+   bottom: 2.5em;
+   right: 2em;;
+   background: white;
+   color: #0f9d58; 
+   border: 2px solid #0f9d58;
+   padding: 0.5em;
+   width: 30%;
+   -webkit-transition-duration: 0.4s; 
+   transition-duration: 0.4s;
+}
+
+.goback:hover {
+    background: #0f9d58; 
+    color: white;
+}
+h1{
+    margin: auto;    
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #2c3e50;
+}
+
+

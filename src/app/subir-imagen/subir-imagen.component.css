@@ -1,0 +1,178 @@
+ 
+div{
+    color: #2c3e50;
+    outline: none;
+
+    
+}
+.lateral{
+    
+    width: 15%;
+    height: 100%;
+    background: white;
+    position: fixed;
+    top: 74px;
+    left: 0em;      
+
+}
+p{
+    color:white;
+    font-family: sans-serif;
+    font-size: 20px;
+
+    
+}
+h1{
+    color:#2c3e50;
+    font-family: sans-serif;
+    margin-bottom: 2%;
+    cursor: pointer;
+    outline: none;
+}
+#rectangulo{
+    width: 90px;
+    height: 7px;
+    background: #2c3e50;
+    margin-left: 3em;
+    float: left;
+   
+}
+.titulo{
+    margin-left: 1.5em;
+}
+#titulo{
+    font-family: sans-serif;
+    padding: 1em;
+    background: white;
+    width: 988px;
+    min-height: 30px;
+    max-height: auto;
+    margin-left: 2em;
+    font-size: 1.5em;
+    
+}
+#descripcion{
+    
+    font-family: sans-serif;
+    padding: 1em;
+    background: white;
+    width: 1000px;
+    min-height: 70px;
+    max-height: auto;
+    margin-left: 3em;
+}
+#cuerpo{
+    font-family: sans-serif;
+    padding: 1em;
+    background: white;
+    width: 1000px;
+    min-height: 150px;
+    max-height: auto;
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+#tituloLetra{
+    color: #2c3e50;
+    margin-left: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+input[type="radio"]{
+display: none;
+}
+
+input[type="radio"]:checked + label{
+ padding: 10px 15px;
+ background: #222f3e;
+}
+input[type="radio"]:checked + label:before{
+    display: none;
+}
+
+#publicar{
+    width: 300px;
+    margin-left: 450px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.5em;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    margin-top: 15px;
+
+}
+#publicar:hover{
+   color: #222f3e;
+   border: 2px solid #222f3e;
+}
+.iconos{
+    width: 100%;
+    padding: 5px 20px; 
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+    
+}
+
+.fa:hover {
+   
+    width:100px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #ff6b6b;
+    color: white;
+}
+
+
+.fa-youtube {
+    background: #ff0000;
+    color: white;
+}
+.subtitulo{
+
+    color: #222f3e;
+}
+#estadistica2{
+    width: 40px;
+    height: 50px;
+    background: #e74c3c;
+    float: left;
+    margin-left: 3em;
+}
+#estadistica1{
+    width: 40px;
+    height: 60px;
+    background: #0f9d58;
+    float: left;
+    
+}
+#subdiv{
+
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+    margin-left: 2em;
+}
+::placeholder {
+    color: #222f3e;
+    opacity: 1; 
+}
