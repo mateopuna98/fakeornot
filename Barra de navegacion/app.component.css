@@ -48,19 +48,22 @@ header{
      list-style: none;
  }
  
- nav li:hover> nav{
-     display: block;
- }
+
  nav li nav{
      display: none;
-     width: 10px;
-     position: static;
-  
-   
+     width: 175px;
+     position: fixed;
+    background-color:white;
+    border-radius:10px;
+    border: 1px solid #2c3e50;
+    
  }
  nav li:hover> nav{
-     display: block;
- }
+     display:block;
+     -webkit-transition-duration: 0.8s; 
+     transition-duration: 0.8s 
+    }
+ 
  li{
      cursor: pointer;
  }  
@@ -71,3 +74,5 @@ header{
     border: 2px solid #2c3e50;
 }
 */
+
+
