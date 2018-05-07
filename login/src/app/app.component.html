@@ -1,0 +1,24 @@
+<header>
+  <div class="wrapper">
+  <div class="logo">Fake or Not</div>
+   <nav > 
+   <a routerLink="/home" routerLinkActive="active">Home</a>
+   <a class="nav-item" *ngIf="isLogin" routerLink="/fakest" routerLinkActive="active">Fakest</a>
+   <a class="nav-item" *ngIf="isLogin">Truthest</a>
+   <a class="nav-item" *ngIf="!isLogin" routerLink="/login" routerLinkActive="active">Account</a> 
+   <a class="nav-item" *ngIf="isLogin" routerLink="/file-upload" routerLinkActive="active" >Upload News</a> 
+   
+    <a class="nav-item" *ngIf="isLogin" class="nav-link" href="#" (click)="onClickLogout()" >Salir</a>
+  
+  
+    <span  class="nav-link">{{nombreUsuario}}</span>
+  
+  
+    <img class="nav-item" *ngIf="isLogin" src="{{fotoUsuario}}" class="imgRedonda" >
+    
+    <span class="badge pill badge-secondary">{{emailUsuario}}</span>
+  </nav>
+  </div>
+</header>
+<router-outlet></router-outlet>
+

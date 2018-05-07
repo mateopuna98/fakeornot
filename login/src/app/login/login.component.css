@@ -1,0 +1,55 @@
+#fb{
+    background: white; 
+    color: #3B5998;
+    border: 2px solid #3B5998;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+#google{
+    background: white;
+    color:#E50000;;
+    border: 2px solid #E50000;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+#email{
+    background: white; 
+    color: #585858;
+    border: 2px solid #585858;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+#google:hover {
+    background: #E50000; 
+    color: white;
+    font-size: 1.05em
+}
+#fb:hover {
+    background: #3B5998;
+    color: white;
+    font-size: 1.05em
+}
+#email:hover {
+    background: #585858;
+    color: white;
+    font-size: 1.05em
+}
+.alc{
+    color: #2E9CE6;
+    text-align:center;
+    text-decoration: none;
+    display:block; 
+}
+#lock {
+    position: relative; 
+    width:50%;
+    margin: auto;
+    display:block;
+}
+.color{
+    color: black;
+}
+a{
+    font-family: sans-serif;
+}
