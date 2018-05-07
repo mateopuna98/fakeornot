@@ -10,10 +10,9 @@ export class HomeComponent implements OnInit {
  
   estado: boolean = false;
   es: string='';
+  cubrir: boolean = false;
   constructor() { }
-  noticia = ['noticia1', 'noticia2'];
-  noticia2 = ['noticia3', 'noticia4'];
-  noticias = [this.noticia, this.noticia2];
+  noticias = [1, 2, 3, 4, 5, 6, 7, 6];
   showspan(){
     this.estado = true;
     }
@@ -21,6 +20,16 @@ export class HomeComponent implements OnInit {
     this.estado = true;
   }
   ngOnInit() {
+  }
+  descover(){
+    var noticia = document.body;
+    noticia.style.overflow='auto'
+    this.cubrir = false;
+  }
+  cover(){
+    var noticia = document.body;
+    noticia.style.overflow='hidden'
+    this.cubrir = true;
   }
 
 }
