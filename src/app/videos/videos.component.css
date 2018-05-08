@@ -1,0 +1,122 @@
+.lateral{
+    width: 256px;
+    height: 100%;
+    background: white;
+    position: fixed;
+    top: 55px;
+    left: 0em;  
+    margin-top: 5px;
+    margin-left: 5px;    
+    
+        
+}
+.noticia{
+    width: 560px;
+    height: auto;
+    background: white;
+    margin: 5px;
+    margin-left: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+   
+    
+
+}
+.video{
+    border-radius: 5px;
+}
+input[type=text]{
+    height: 2.5em;
+    width: 355px;
+    border-radius: 50px;
+    float: right;
+    margin-top: 0;
+    border: 1px solid #2c3e50;
+}
+
+p{
+    color:#2c3e50;
+    font-family: sans-serif;
+    margin-bottom: 2%;
+}
+h1{
+    color:#2c3e50;
+    font-family: sans-serif;
+    margin-bottom: 2%;
+    cursor: pointer;
+    outline: none;
+}
+h1:hover{
+    opacity: 0.8;
+}
+button{
+
+    width: 15%;
+    height: 2em;
+    text-align: center;
+    padding: 1%;
+    margin-right: 0.5em;
+    
+}
+#real{
+    background: white;
+    color: #0f9d58; 
+    border: 1px solid #0f9d58;
+    float: left;
+}
+#falso{
+    background: white;
+    color: #e74c3c; 
+    border: 1px solid #e74c3c;
+    float: left;
+    
+}
+#falso:hover{
+    background: #e74c3c;
+    color: white;
+     
+}
+
+#real:hover{
+    background: #0f9d58;
+    color: white;
+}
+
+#datos{
+
+    color: gray;
+    font-family: sans-serif;
+    float: inherit;
+    margin-top: 1em;
+}
+#comentar{
+    
+    width: 158px;
+    float: left;
+    background: white;
+    color: #2c3e50;
+    border: 1px solid #2c3e50;  
+      
+    
+}
+#comentar:hover{
+    background: #2c3e50;
+    color: white;
+    
+}
+
+
+.titulo{
+    margin-left: 1.5em;
+}
+#rectangulo{
+    width: 90px;
+    height: 7px;
+    background: #2c3e50;
+    margin-left: 3em;
+    float: left;
+   
+}
